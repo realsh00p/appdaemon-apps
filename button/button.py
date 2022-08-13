@@ -47,11 +47,3 @@ class Button:
         else:
             print("finished, count: " + str(self.count))
             self.count = 0
-
-
-def main():
-    t1 = Button()
-    t1.listener.join()
-
-if __name__ == "__main__":
-    main()
