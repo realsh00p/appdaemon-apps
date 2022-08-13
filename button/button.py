@@ -1,6 +1,6 @@
 from pynput import keyboard
 
-from timer import Timer
+from button.timer import Timer
 
 class Button:
 
